@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0f1a3d;
+  --color-navy: #14226b;
+  --color-navy-deep: #0b1547;
+  --color-blue: #2a47d6;
+  --color-leaf: #1fa34a;
+  --color-leaf-dark: #168a3c;
+  --color-mist: #eef2ff;
+  --color-paper: #f7f9ff;
+  --font-sans: "Hind Siliguri", system-ui, sans-serif;
+  --font-display: "Anek Bangla", "Hind Siliguri", sans-serif;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .animate-pulse { animation: none; } }
